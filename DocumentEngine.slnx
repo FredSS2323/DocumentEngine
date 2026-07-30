@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DocumentEngine.Examples/DocumentEngine.Examples.csproj" />
+    <Project Path="src/DocumentEngine/DocumentEngine.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DocumentEngine.Tests/DocumentEngine.Tests.csproj" />
+  </Folder>
+</Solution>
