@@ -1,14 +1,14 @@
 namespace DocumentEngine.Models;
 
-public sealed class ReceiptModel
+public sealed record ReceiptModel
 {
-    public string Number { get; init; } = string.Empty;
+    public required string Number { get; init; }
 
-    public string Receiver { get; init; } = string.Empty;
+    public required string Receiver { get; init; }
+
+    public required string Description { get; init; }
 
     public decimal Amount { get; init; }
 
-    public string Description { get; init; } = string.Empty;
-
-    public DateTime Date { get; init; } = DateTime.Now;
+    public DateOnly Date { get; init; }
 }
