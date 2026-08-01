@@ -2,10 +2,10 @@
 
 ## v0.1
 
-- [ ] Estrutura da solução
-- [ ] Modelo de recibo
-- [ ] Geração de PDF
-- [ ] Projeto de exemplo
+- [x] Estrutura da solução
+- [x] Modelo de recibo
+- [x] Geração de PDF
+- [x] Projeto de exemplo
 
 ## v0.2
 

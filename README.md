@@ -27,7 +27,7 @@ A ideia é evitar recriar a lógica de geração de documentos em cada novo proj
 ## Roadmap
 
 - [x] Estrutura inicial
-- [ ] Geração de recibos
+- [x] Geração de recibos
 - [ ] Contratos
 - [ ] Certificados
 - [ ] Relatórios
