@@ -14,6 +14,6 @@ var receipt = new ReceiptModel
     Date = DateOnly.FromDateTime(DateTime.Now)
 };
 
-var document = new ReceiptDocument(receipt);
+var service = new DocumentService();
 
-document.GeneratePdf("Receipt.pdf");
+service.GenerateReceipt(receipt, "Receipt.pdf");
